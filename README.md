@@ -50,6 +50,10 @@ public class Leaf : Decision
 }
 ```
 ```csharp
+/// <summary>
+/// Define a set of multilevel trees for testing
+/// Where each level has a condition based on a variable
+/// </summary>
 public static class Forest
 {
     public static Node TreeA()
